@@ -109,3 +109,4 @@ for (let index = 0; index < array.length; index++) {
     const element = str[index];
     console.log(element);
 }
+
