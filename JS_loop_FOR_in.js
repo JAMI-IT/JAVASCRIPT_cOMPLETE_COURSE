@@ -5,7 +5,29 @@ let text="";
 
 for(let x in person)
 {
-    text +=person[x]+" ";
+    text +=x+" : "+person[x]+" . ";
    
 }
 console.log(text);
+
+const s=[21,23,22,77,21];
+
+let text1="";
+for(let x in s)
+{
+    text1 +=s[x]+" _ ";
+}
+console.log(text1);
+
+
+const y=[54,23,64,24];
+let text2 ="";
+y.forEach(disply);
+function disply(value)
+{
+    text2 +=value+"_";
+}
+
+console.log(text2);
+
+
