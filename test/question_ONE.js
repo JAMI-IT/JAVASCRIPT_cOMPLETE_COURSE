@@ -8,6 +8,7 @@ const a={
      ]
      };
 
+     
       // a)Identify the piece of code is it array or object
      console.log("a)Identify the piece of code is it array or object");
     let t=typeof a;
