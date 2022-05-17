@@ -12,8 +12,20 @@ for(let x in m)
 }
 console.log(text);
 
-let mat=[12.2,12.7,32,];
+let mat=[12.2,12.7,32,-4.7,4.4,4.5];
 console.log(Math.round(mat[1]));
 
 console.log(Math.ceil(mat[0]));
+
+console.log(Math.floor(mat[3]));
+
+console.log(Math.trunc(mat[1]));
+
+console.log(Math.sign(mat[3]));
+
+console.log(Math.pow(8,2));
+
+console.log(Math.sqrt(64));
+
+console.log(Math.abs(-4.7));
 
