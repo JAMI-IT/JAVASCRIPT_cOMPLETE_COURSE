@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 let person={Fname:"Abdul Rehman",lname:"JAmi",Age:21};
 
