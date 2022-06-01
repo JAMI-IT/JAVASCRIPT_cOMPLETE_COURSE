@@ -133,7 +133,7 @@ console.log(lname.split(""));
 // console.log(a.padStart(14,"0"));
 
 // // JavaScript String padEnd()
-// // The padEnd() method pads a string with another string:
+// // The padEnd(   ) method pads a string with another string:
 // let x=4;
 // let to=x.toString();
 // console.log(to.padEnd(4,"0"));
