@@ -14,6 +14,7 @@ console.log(jsonstr);
 
 console.log(jsonstr.replace('Bole','GEO'));
 
+console.log("This can convert the string into object");
 jsonobj=JSON.parse(jsonstr);
 console.log(jsonobj);
 
