@@ -29,5 +29,32 @@ console.log(dl.toDateString());
 
 //-----------------parse date-------------
 let dp=Date.parse("January ,25,2018");
+const dp1=new Date(dp);
 console.log(dp);
+console.log(dp1);
+
+//------------------Get date from youser------------
+const dg=new Date();
+dg.getTime();
+console.log(dg.toISOString());
+
+//------------------get full year method-------------
+const dy=new Date();
+dy.getFullYear();
+console.log(dy);
+
+//----------------get full month---------------------
+const dm=new Date();
+
+console.log(dm.getMonth());
+
+//--------------Get Day-----------------------------
+const dd= new Date();
+console.log(dd.getDate());
+
+//---------------get houre--------------------------
+const gh=new Date();
+console.log(gh.getHours());
+
+
 
