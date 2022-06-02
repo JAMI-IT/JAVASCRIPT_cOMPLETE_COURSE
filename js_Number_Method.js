@@ -46,3 +46,18 @@ let na=Number.NaN;
 console.log(a,z,p,n,na);
 console.log(1/0,-1/0,1/"jami");
 console.log(x.MAX_VALUE);
+
+
+let ax=new Number(500);
+let bx=new Number(500);
+console.log(ax===bx);
+
+//-----------------------------to string method ---------------------------------
+let no=21;
+no.toString();
+console.log(no);
+console.log((100+32).toString());
+console.log(no.valueOf());
+
+let az=Number.MAX_VALUE;
+console.log(az);
