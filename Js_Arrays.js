@@ -11,6 +11,8 @@ console.log(car);
 // However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
 // The solution is an array!
 // An array can hold many values under a single name, and you can access the values by referring to an index number.
+
+
 car[0]="Toyota"
 
 // New element can also be added to an array using the length property:
@@ -51,5 +53,15 @@ console.log(point);
 console.log(typeof point);
 console.log(Array.isArray(point));
 console.log(point instanceof Array);
+
+
+
+//------------------------------Creating new array in the javascript==============================
+const ne=new Array("Jami","12 year","Abdul rehman");
+console.log(ne.length);
+
+ne[0]="Abdul rehman";
+ne[2]="jami";
+console.log(ne);
 
 
