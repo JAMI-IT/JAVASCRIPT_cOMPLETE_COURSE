@@ -77,10 +77,7 @@ console.log(lname[3]);
 //----------------------------------split()  String can be converted into the array by using split method........
 console.log(lname.split(""));
 
-
-
-
-
+//================================@@@@@@@@@@@@@@@@@@@@========================
 
 // // Extracting String Parts
 // // There are 3 methods for extracting a part of a string:

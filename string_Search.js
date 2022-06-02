@@ -1,17 +1,25 @@
-let text="I am the professional in java script";
+let text="I am in the professional in java script";
 
 //--------------===-===============lastindexof return thee last index of a specified text------------
 console.log(text.lastIndexOf("java"));
 
 //-------------------------------both accept the second index in the parameter 
-console.log(text.lastIndexOf("am",14));
+console.log(text.indexOf("am",14));
 
 //-------------------------------serach operator .................................
 console.log(text.search("script"));
 
+//-------------------------------match operation------------------------------------
+console.log(text.match(/in/g));
 
+//--------------------------------for global match---------------------------------
+console.log(text.match(/in/gi));
 
+//---------------------------------include-----------------------------------------
+console.log(text.includes("script"));
 
+//---------------------------------start with--------------------------------------
+console.log(text.startsWith("I"));
 
 
 // // JavaScript Search Methods
