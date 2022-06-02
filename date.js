@@ -56,5 +56,21 @@ console.log(dd.getDate());
 const gh=new Date();
 console.log(gh.getHours());
 
+//-----------you can use the the array to get the day name of that day 0----------------
+const days=["Sunday","Monday","Tusday","WEdnesday","Thurday","Friday","Sturday"];
+const gd=new Date();
+console.log(days[gd.getDay()]);
+
+//---------------------Sete full year------------------
+const ds=new Date();
+console.log(ds.setFullYear(2000,6,13));
+
+//------------------Set ful month--------------------
+const sm=new Date();
+console.log(sm.setMonth(11));
+
+//-----------------set full hour------------------------
+const fm=new Date();
+console.log(fm.setHours(24));
 
 
