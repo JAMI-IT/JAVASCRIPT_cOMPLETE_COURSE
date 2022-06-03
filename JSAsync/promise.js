@@ -1,10 +1,3 @@
-setTimeout(function(){myFunction(console.log("Ilove you"))},3000);
-
-function myFunction() {
-  console.log("Hellow world");
-}
-
-
 function disply(text)
 {
   console.log(text);
@@ -28,7 +21,3 @@ function(myresovle,myreject)
       function(value){disply(value)},
       function(error){disply(error)}
     )
-
-
-
-
