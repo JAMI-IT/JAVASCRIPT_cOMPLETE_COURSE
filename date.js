@@ -73,4 +73,20 @@ console.log(sm.setMonth(11));
 const fm=new Date();
 console.log(fm.setHours(24));
 
+//------------Comparsion----------------------------------
+let text;
+const today=new Date();
+const somday=new Date();
+somday.setFullYear(2100,10,2);
+if (somday>today) {
+    text="Today is before January 14, 2100.";
+    console.log(text);
+}
+else{
+    text = "Today is after January 14, 2100.";
+    console.log(text);
+}
+
+
+
 
