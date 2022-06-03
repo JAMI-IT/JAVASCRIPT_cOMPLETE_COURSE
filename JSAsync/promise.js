@@ -9,7 +9,8 @@ function disply(text)
 {
   console.log(text);
 }
-let mypromis =new Promise(function(myresovle,myreject)
+let mypromis =new Promise(
+function(myresovle,myreject)
 {
     let x=0;
     if (x==0)
@@ -19,7 +20,9 @@ let mypromis =new Promise(function(myresovle,myreject)
     else{
       myreject("Error");
    }
-   });
+   
+  }
+   );
 
     mypromis.then(
       function(value){disply(value)},
