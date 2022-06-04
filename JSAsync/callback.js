@@ -4,8 +4,8 @@ function myFunction() {
   console.log("Hellow world");
 }
 
-
 function disply(text)
 {
   console.log(text);
 }
+
