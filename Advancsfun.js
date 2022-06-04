@@ -32,5 +32,11 @@ var max=0;
     }
 // }
 
+let su=[2,3,1,4,5];
 
-
+var sum=0;
+for (let a = 0; a < su.length; a++) {
+    sum=sum+su[a];
+}
+console.log("Sum of Arrays :");
+console.log(sum);
